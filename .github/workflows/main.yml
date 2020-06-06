@@ -29,8 +29,8 @@ jobs:
       
     
     # Runs a set of commands using the runners shell
-    - name: GitHub Action for NPM/Chrome
-      uses: daleobrien/npm-with-chrome-browser-action@v1.0.1
+    - name: Automated releases for npm packages.
+      uses: mikeal/merge-release@v4.0.7
       with:
         cmd:  install
         
